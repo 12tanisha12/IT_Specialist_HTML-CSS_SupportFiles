@@ -13,6 +13,11 @@ a:hover {
     text-decoration:underline;
     font-weight:bold;
 }
+figcaption {
+    color: navy;
+    font-weight: bold;
+    background-color: aqua;
+}
 .sale {
     font-weight:bold;
     background-color:aqua;
