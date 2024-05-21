@@ -37,6 +37,10 @@ a:active {
 a:visited {
     color:#808080;
 }
+td.vbot {
+    vertical-align:bottom;
+    height:30px;
+}
 a:hover {
     text-decoration: underline;
     font-weight: bold;
