@@ -8,9 +8,11 @@ p {
 
 /* The background color is extending across the page,
     so I have commented it out for now. */
+
 figcaption {
     color: navy;
     font-weight: bold;
+      font-variant: small-caps;
     /*background-color: #AAEEFF;*/
 }
 .sale {
