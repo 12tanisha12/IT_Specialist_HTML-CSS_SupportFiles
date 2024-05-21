@@ -30,6 +30,12 @@ figcaption {
 a {
     text-decoration: none;
 }
+a:active {
+    color:#63f60a;
+}
+a:visited {
+    color:#808080;
+}
 a:hover {
     text-decoration: underline;
     font-weight: bold;
