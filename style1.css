@@ -43,3 +43,6 @@ body{
 .dropDown:hover .dropDown-content{
   display:block;
 }
+h1{
+  color:#e75480;
+}
