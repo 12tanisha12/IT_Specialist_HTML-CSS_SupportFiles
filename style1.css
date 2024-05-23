@@ -1,1 +1,16 @@
-
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color: #FFC0CB;
+}
+li{
+float:left;
+}
+li a, .dropBtn{
+  display: inline-block;
+  color: #e75480;
+  text-align:center;
+  padding:12px 14px;
+}
