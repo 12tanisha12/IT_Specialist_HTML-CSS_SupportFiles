@@ -28,3 +28,12 @@ li. dropDown{
   box-shadow:0px 8px 16px 0px rgb(255,255,255);
   z-index: 1;
 }
+.dropDown-content a{
+  color:red;
+  display:block;
+  text-align:left;
+}
+.dropDown-content a:hover{
+  background-color: #FAA0A0;
+  color:pink;
+}
