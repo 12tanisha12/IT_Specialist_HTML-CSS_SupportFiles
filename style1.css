@@ -3,30 +3,65 @@ ul{
   margin:0;
   padding:0;
   overflow:hidden;
-  background-color: #FFC0CB;
+  box-shadow:
+        inset #FF69B4 0 0 0 5px, 
+        inset #FF85CF 0 0 0 10px, 
+        inset #FFA3E0 0 0 0 15px, 
+        inset #FFC0EB 0 0 0 20px, 
+        inset #FFD9F7 0 0 0 25px, 
+        inset #FFE9FF 0 0 0 30px, 
+        inset #FFFCFF 0 0 0 35px, 
+        inset #FFF0FF 0 0 0 40px;
 }
 li{
 float:left;
 }
 li a, .dropBtn{
   display: inline-block;
-  color: #e75480;
   text-align:center;
   padding:12px 14px;
 }
 li a:hover, .dropDown:hover .dropBtn{
-  background-color: #F8C8DC;
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
 }
 li. dropDown{
-  display:inline-block;
+   margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  position: absolute;
+  left: 70px;
+  top: 20px;
+  text-align: left;
+  z-index: 1;
+  font-family: 'Twinkle Star';
+  font-size: 54px;
+  font-weight: bold;
+  color: #FF2E9D;
+  height: 90px; /* Initial height of the menu */
+  transition: height 0.4s ease;
 }
 .dropDown-content{
-  display:none;
-  position:absolute;
-  background-color:#FFB6C1;
-  min-width:160px;
-  box-shadow:0px 8px 16px 0px rgb(255,255,255);
-  z-index: 1;
+color: #FF2E9D;
+  padding: 10px;
+  font-size: 0.5em;
+  display: block;
+  opacity: 0;
+  transition-delay: 0.4s; /* Delay all menu items */
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  transform: translateY(-20px);
+  box-shadow:
+      inset #FF69B4 0 0 0 5px, 
+      inset #FF85CF 0 0 0 10px, 
+      inset #FFA3E0 0 0 0 15px, 
+      inset #FFC0EB 0 0 0 20px, 
+      inset #FFD9F7 0 0 0 25px, 
+      inset #FFE9FF 0 0 0 30px, 
+      inset #FFFCFF 0 0 0 35px, 
+      inset #FFF0FF 0 0 0 40px;
+  text-shadow: 3px 3px 1px #FFD9F7;
+  max-height: 200px;
 }
 .dropDown-content a{
   color:red;
@@ -38,10 +73,37 @@ li. dropDown{
   color:pink;
 }
 body{
-  background-color: #FFE9ED;
+  background: linear-gradient(-45deg,#FFF0FF, #FFA3E0,#ffb6c1, #ffc1cc,#ffdbe5,#ffd7e9,#ff6ec7);
+  background-size: 500% 500%;
+  animation: gradient 13s ease infinite;
+  height: 100%;
+  width: 100%;
 }
 .dropDown:hover .dropDown-content{
   display:block;
+}
+.banner{
+  margin: 15px;
+  padding: 15px;
+  width: 1150px;
+  height: 200px;
+  outline-offset: 1px;
+  outline: groove 2x #ff69b4;
+  text-transform: capitalize;
+  font-style: oblique;
+  font-size: 9 px;
+  text-align: right;
+  box-shadow:
+      inset #FF69B4 0 0 0 5px, 
+      inset #FF85CF 0 0 0 10px, 
+      inset #FFA3E0 0 0 0 15px, 
+      inset #FFC0EB 0 0 0 20px, 
+      inset #FFD9F7 0 0 0 25px, 
+      inset #FFE9FF 0 0 0 30px, 
+      inset #FFFCFF 0 0 0 35px, 
+      inset #FFF0FF 0 0 0 40px;
+  text-shadow: 3px 3px 1px #FFA3E0;
+ 
 }
 h1{
   color:#e75480;
