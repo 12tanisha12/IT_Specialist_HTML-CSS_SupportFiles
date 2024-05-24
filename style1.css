@@ -69,8 +69,20 @@ color: #FF2E9D;
   text-align:left;
 }
 .dropDown-content a:hover{
-  background-color: #FAA0A0;
-  color:pink;
+   margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  position: absolute;
+  left: 70px;
+  top: 20px;
+  text-align: left;
+  z-index: 1;
+  font-family: 'Twinkle Star';
+  font-size: 54px;
+  font-weight: bold;
+  color: #FF2E9D;
+  height: 90px; /* Initial height of the menu */
+  transition: height 0.4s ease;
 }
 body{
   background: linear-gradient(-45deg,#FFF0FF, #FFA3E0,#ffb6c1, #ffc1cc,#ffdbe5,#ffd7e9,#ff6ec7);
