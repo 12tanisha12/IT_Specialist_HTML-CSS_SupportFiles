@@ -1,141 +1,120 @@
-ul{
-  list-style-type:none;
-  margin:0;
-  padding:0;
-  overflow:hidden;
-  box-shadow:
-        inset #FF69B4 0 0 0 5px, 
-        inset #FF85CF 0 0 0 10px, 
-        inset #FFA3E0 0 0 0 15px, 
-        inset #FFC0EB 0 0 0 20px, 
-        inset #FFD9F7 0 0 0 25px, 
-        inset #FFE9FF 0 0 0 30px, 
-        inset #FFFCFF 0 0 0 35px, 
-        inset #FFF0FF 0 0 0 40px;
+.jaro-<uniquifier> {
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
-li{
-float:left;
-}
-li a, .dropBtn{
-  display: inline-block;
-  text-align:center;
-  padding:12px 14px;
-}
-li a:hover, .dropDown:hover .dropBtn{
-  display: block;
-  opacity: 1;
-  transform: translateY(0);
-}
-li. dropDown{
-   margin: 10px;
-  padding: 10px;
-  overflow: hidden;
-  position: absolute;
-  left: 70px;
-  top: 20px;
-  text-align: left;
-  z-index: 1;
-  font-family: 'Twinkle Star';
-  font-size: 54px;
-  font-weight: bold;
-  color: #FF2E9D;
-  height: 90px; /* Initial height of the menu */
-  transition: height 0.4s ease;
-}
-.dropDown-content{
-color: #FF2E9D;
-  padding: 10px;
-  font-size: 0.5em;
-  display: block;
-  opacity: 0;
-  transition-delay: 0.4s; /* Delay all menu items */
-  transition: opacity 0.4s ease, transform 0.4s ease;
-  transform: translateY(-20px);
-  box-shadow:
-      inset #FF69B4 0 0 0 5px, 
-      inset #FF85CF 0 0 0 10px, 
-      inset #FFA3E0 0 0 0 15px, 
-      inset #FFC0EB 0 0 0 20px, 
-      inset #FFD9F7 0 0 0 25px, 
-      inset #FFE9FF 0 0 0 30px, 
-      inset #FFFCFF 0 0 0 35px, 
-      inset #FFF0FF 0 0 0 40px;
-  text-shadow: 3px 3px 1px #FFD9F7;
-  max-height: 200px;
-}
-.dropDown-content a{
-  color:red;
-  display:block;
-  text-align:left;
-}
-.dropDown-content a:hover{
-   margin: 10px;
-  padding: 10px;
-  overflow: hidden;
-  position: absolute;
-  left: 70px;
-  top: 20px;
-  text-align: left;
-  z-index: 1;
-  font-family: 'Twinkle Star';
-  font-size: 54px;
-  font-weight: bold;
-  color: #FF2E9D;
-  height: 90px; /* Initial height of the menu */
-  transition: height 0.4s ease;
-}
-body{
-  background: linear-gradient(-45deg,#FFF0FF, #FFA3E0,#ffb6c1, #ffc1cc,#ffdbe5,#ffd7e9,#ff6ec7);
-  background-size: 500% 500%;
-  animation: gradient 13s ease infinite;
-  height: 100%;
-  width: 100%;
-}
-.dropDown:hover .dropDown-content{
-  display:block;
-}
-.banner{
-  margin: 15px;
-  padding: 15px;
-  width: 1150px;
-  height: 200px;
-  outline-offset: 1px;
-  outline: groove 2x #ff69b4;
-  text-transform: capitalize;
-  font-style: oblique;
-  font-size: 9 px;
-  text-align: right;
-  box-shadow:
-      inset #FF69B4 0 0 0 5px, 
-      inset #FF85CF 0 0 0 10px, 
-      inset #FFA3E0 0 0 0 15px, 
-      inset #FFC0EB 0 0 0 20px, 
-      inset #FFD9F7 0 0 0 25px, 
-      inset #FFE9FF 0 0 0 30px, 
-      inset #FFFCFF 0 0 0 35px, 
-      inset #FFF0FF 0 0 0 40px;
-  text-shadow: 3px 3px 1px #FFA3E0;
+body {
+ font-family: "Jaro", sans-serif;
+  font-weight: 300;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
  
 }
 h1{
-  color:#e75480;
+text-shadow:2px 2px #d2042d;
 }
-.container{
-  width: 1200px;
-  height: 825px;
-overflow:hidden;
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #880808;
+
+}
+li{
+  float: left;
+   border: 2px solid white;
+  border: 2px solid white;
+  width:24.5%;
+  height: 1000px;
+  font-size: 0.8rem;
+}
+.right{
+    position: absolute;
+  right: 1px;
+  margin: 2px;
+  padding: 2px;
+  border: 2px solid;
+  width:74%;
+  height: 1260px;
+}
+span{
+
+  background-color: #800000;
+  color: white;
+  font-size: 29px;
+  border: 2px solid black;
+}
+.banner{
   text-align: center;
-  box-shadow:
-      inset #FF69B4 0 0 0 5px, 
-      inset #FF85CF 0 0 0 10px, 
-      inset #FFA3E0 0 0 0 15px, 
-      inset #FFC0EB 0 0 0 20px, 
-      inset #FFD9F7 0 0 0 25px, 
-      inset #FFE9FF 0 0 0 30px, 
-      inset #FFFCFF 0 0 0 35px, 
-      inset #FFF0FF 0 0 0 40px;
-  text-shadow: 3px 3px 1px #FFA3E0;
+  text-decoration: underline #800000;
+  border: 2px solid white;
+  font-size: 32px;
 }
-#homecontainer{
-  background-image: repeating-radial-gradient(#FFCCDF, #FFD5E7, #FFE2F0, #FFECF8, #FFF5FF, #FFFFFF, #FFF5FF, #FFECF8);
+.navi{
+  display: flex; justify-content: center; align-items: center;
+}
+img{
+  border: 2px dotted #800020;
+  box-shadow:0px 8px 16px 0px white;
+}
+.gloss{
+  width: 80px;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  border: 2px dotted #800000;
+  text-decoration: none;
+}
+.workbook{
+  width: 80px;
+  background-color:  #800000;
+  color: black;
+  border: 2px dotted  white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.gloss a{
+ 
+ 
+  color: black;
+ 
+  text-decoration: none;
+}
+.workbook a{
+ 
+ 
+  color: black;
+ 
+  text-decoration: none;
+}
+.workbook a:hover{
+  background-color: white;
+  color: black;
+}
+.gloss a:hover{
+  background-color: #D70040;
+  color: black;
+}
+.hidden {
+    display: none;
+}
+#show, #hide {
+    display: block;
+  background-color:#800000 ;
+  font-family: "Jaro", sans-serif;
+  box-shadow:0px 8px 16px 0px rgb(210, 4, 45);
+  width: 50px;
+  height: 50px;
+}
+
+.button-container {
+  overflow: auto; /* Clears the float */
+}
+
+.button-float {
+  float: left;
+  margin-right: 3px; /* Optional: Adds space between buttons */
 }
