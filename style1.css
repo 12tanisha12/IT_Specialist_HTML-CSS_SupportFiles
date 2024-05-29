@@ -50,7 +50,9 @@ span{
   font-size: 32px;
 }
 .navi{
-  display: flex; justify-content: center; align-items: center;
+  display: flex; 
+ justify-content: center; 
+ align-items: center;
 }
 img{
   border: 2px dotted #FC8EAC;
