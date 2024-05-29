@@ -1,21 +1,21 @@
 
 body {
- font-family: "Jaro", sans-serif;
+ font-family: "Fleur De Leah", sans-serif;
   font-weight: 300;
-  background-color: black;
+  background-color: #FFD1DC;
   color: white;
   font-size: 1.2rem;
  
 }
 h1{
-text-shadow:2px 2px #d2042d;
+text-shadow:2px 2px white ;
 }
 ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #880808;
+  background-color: #FC8EAC;
 
 }
 li{
@@ -37,14 +37,14 @@ li{
 }
 span{
 
-  background-color: #800000;
+  background-color: #FC8EAC;
   color: white;
   font-size: 29px;
   border: 2px solid black;
 }
 .banner{
   text-align: center;
-  text-decoration: underline #800000;
+  text-decoration: underline #FC8EAC;
   border: 2px solid white;
   font-size: 32px;
 }
@@ -52,7 +52,7 @@ span{
   display: flex; justify-content: center; align-items: center;
 }
 img{
-  border: 2px dotted #800020;
+  border: 2px dotted #FC8EAC;
   box-shadow:0px 8px 16px 0px white;
 }
 .gloss{
@@ -60,12 +60,12 @@ img{
   font-size: 18px;
   background-color: white;
   color: black;
-  border: 2px dotted #800000;
+  border: 2px dotted #FC8EAC;
   text-decoration: none;
 }
 .workbook{
   width: 80px;
-  background-color:  #800000;
+  background-color:  #FC8EAC;
   color: black;
   border: 2px dotted  white;
   text-decoration: none;
