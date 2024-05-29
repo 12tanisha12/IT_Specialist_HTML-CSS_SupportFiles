@@ -1,104 +1,125 @@
-
 body {
- font-family: "Fleur De Leah", sans-serif;
+  font-family: "Fleur De Leah", sans-serif;
   background-color: #FFD1DC;
   color: white;
   font-size: 1.2rem;
- 
 }
-h1{
-text-shadow:2px 2px white ;
+
+h1 {
+  text-shadow: 2px 2px white;
 }
-a{  font-family: Bonbon", sans-serif;
+
+a {
+  font-family: "Bonbon", sans-serif;
 }
-ul{
+
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #FC8EAC;
-
 }
-li{
+
+li {
   float: left;
-   border: 2px solid white;
   border: 2px solid white;
-  width:24.5%;
+  width: 24.5%;
   height: 1000px;
   font-size: 0.8rem;
 }
-.right{
-    position: absolute;
+
+.right {
+  position: absolute;
   right: 1px;
   margin: 2px;
   padding: 2px;
-  border: 2px solid;
-  width:74%;
+  border: 2px solid white;
+  width: 74%;
   height: 1260px;
 }
-span{
 
+span {
   background-color: #FC8EAC;
   color: white;
   font-size: 29px;
   border: 2px solid black;
 }
-.banner{
+
+.banner {
   text-align: center;
   text-decoration: underline #FC8EAC;
   border: 2px solid white;
   font-size: 32px;
 }
-.navi{
-  display: flex; 
- justify-content: center; 
- align-items: center;
-}
-img{
-  border: 2px dotted #FC8EAC;
-  box-shadow:0px 8px 16px 0px white;
-}
-.gloss{
-  width: 80px;
-  font-size: 18px;
-  background-color: white;
-  color: black;
-  border: 2px dotted #FC8EAC;
-  text-decoration: none;
-}
-.workbook{
-  width: 80px;
-  background-color:  #FC8EAC;
-  color: black;
-  border: 2px dotted  white;
-  text-decoration: none;
-  font-size: 18px;
-}
-.gloss a{
 
-  color: white;
+.navi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border: 2px dotted #FC8EAC;
+  box-shadow: 0px 8px 16px 0px white;
+}
+
+.gloss,
+.workbook {
+  width: 80px;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 4px;
+  margin: 4px;
+}
+
+.gloss {
+  background-color: white;
+  color: black;
+  border: 2px dotted #FC8EAC;
+}
+
+.workbook {
+  background-color: #FC8EAC;
+  color: black;
+  border: 2px dotted white;
+}
+
+.gloss a,
+.workbook a {
   text-decoration: none;
 }
-.workbook a{
+
+.gloss a {
+  color: black;
+}
+
+.workbook a {
   color: pink;
-  text-decoration: none;
 }
-.workbook a:hover{
+
+.workbook a:hover {
   background-color: white;
   color: pink;
 }
-.gloss a:hover{
+
+.gloss a:hover {
   background-color: #F4C2C2;
   color: pink;
 }
+
 .hidden {
-    display: none;
+  display: none;
 }
-#show, #hide {
-    display: block;
-  background-color:#F4C2C2 ;
+
+#show,
+#hide {
+  display: block;
+  background-color: #F4C2C2;
   font-family: "Bonbon", sans-serif;
-  box-shadow:0px 8px 16px 0px #FFD7E9;
+  box-shadow: 0px 8px 16px 0px #FFD7E9;
   width: 50px;
   height: 50px;
 }
