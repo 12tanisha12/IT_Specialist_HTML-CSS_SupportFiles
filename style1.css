@@ -30,7 +30,7 @@ li {
   float: left;
   border: 2px solid white;
   width: 24.5%;
-  height: 1000px;
+  height: 600px;
   font-size: 0.8rem;
 }
 
@@ -41,7 +41,7 @@ li {
   padding: 2px;
   border: 2px solid white;
   width: 74%;
-  height: 160px;
+  height: 200px;
 }
 
 span {
