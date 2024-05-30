@@ -82,23 +82,19 @@ img {
 
 .gloss {
   background-color: white;
-  color: black;
+  color: white;
   border: 2px dotted #FC8EAC;
 }
 
 .workbook {
   background-color: #FC8EAC;
-  color: black;
+  color: white;
   border: 2px dotted white;
 }
 
 .gloss a,
 .workbook a {
   text-decoration: none;
-}
-
-.gloss a {
-  color: black;
 }
 
 .workbook a {
