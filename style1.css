@@ -99,6 +99,7 @@ img {
   border: 2px dotted white;
 }
 
+
 .gloss a,
 .workbook a {
   text-decoration: none;
@@ -139,4 +140,7 @@ img {
 .button-float {
   float: left;
   margin-right: 3px; /* Optional: Adds space between buttons */
+}
+dropDown-content:hover{
+  color:pink;
 }
