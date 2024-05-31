@@ -28,8 +28,8 @@ ul {
 li {
   float: left;
   border: 2px solid white;
-  width: 24.5%;
-  height: 300px;
+ width:24.5%;
+  height: 1000px;
   font-size: 0.8rem;
 }
 .left{
@@ -40,13 +40,13 @@ li {
   margin:0;
 }
 .right {
-  position: absolute;
+   position: absolute;
   right: 1px;
   margin: 2px;
   padding: 2px;
-  border: 2px solid white;
-  width: 74%;
-  height: 200px;
+  border: 2px solid;
+  width:74%;
+  height: 1260px;
 }
 
 span {
@@ -89,12 +89,18 @@ img {
   background-color: white;
   color: white;
   border: 2px dotted #FC8EAC;
+    width: 80px;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .workbook {
   background-color: #FC8EAC;
   color: white;
   border: 2px dotted white;
+    width: 80px;
+    text-decoration: none;
+  font-size: 18px;
 }
 
 
@@ -105,6 +111,7 @@ img {
 
 .workbook a {
   color: pink;
+    text-decoration: none;
 }
 
 .workbook a:hover {
