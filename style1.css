@@ -21,7 +21,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  
   background-color: #FC8EAC;
 }
 li a, .dropBtn{
@@ -50,7 +50,7 @@ li.dropDown{
       text-decoration: none;
       display: block;
       font-color: #F6909D; 
-      
+       
     }
 
     .dropDown-content a:hover {
